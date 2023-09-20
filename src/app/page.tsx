@@ -1,4 +1,5 @@
 import FocusAreas from "@/components/FocusAreas";
+import History from "@/components/History";
 import Introduction from "@/components/Introduction";
 import Main from "@/components/Main";
 
@@ -8,7 +9,7 @@ export default function Home() {
       <Main />
       <Introduction />
       <FocusAreas />
-      <Introduction />
+      <History />
     </div>
   );
 }

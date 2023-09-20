@@ -15,29 +15,29 @@ export default function FocusAreas() {
           focuses on 5 innovation categories.
         </p>
       </div>
-      <div className="grid grid-cols-2 md:flex md:flex-row gap-6 mt-20">
-        <div className="flex flex-col items-center w-[200px] md:w-[270px]">
+      <div className=" grid grid-cols-2 lg:grid-cols-3  xl:flex xl:flex-row gap-6 mt-20">
+        <div className="flex flex-col items-center w-[140px] lg:w-[270px]">
           <div className="w-28 h-28 rounded-full border border-white" />
           <p className="mt-4 headline-xs md:headline-sm">Ocean Energy</p>
         </div>
-        <div className="flex flex-col items-center w-[200px] md:w-[270px]">
+        <div className="flex flex-col items-center w-[140px] lg:w-[270px]">
           <div className="w-28 h-28 rounded-full border border-white" />
           <p className="mt-4 headline-xs md:headline-sm">Shipping and Ports</p>
         </div>
-        <div className="flex flex-col items-center w-[200px] md:w-[270px]">
+        <div className="flex flex-col items-center w-[140px] lg:w-[270px]">
           <div className="w-28 h-28 rounded-full border border-white" />
           <p className="mt-4 headline-xs md:headline-sm">
             {" "}
             Future Food systems/Sustainable Aquaculture
           </p>
         </div>
-        <div className="flex flex-col items-center w-[200px] md:w-[270px]">
+        <div className="flex flex-col items-center w-[140px] lg:w-[270px]">
           <div className="w-28 h-28 rounded-full border border-white" />
           <p className="mt-4 headline-xs md:headline-sm">
             Clean Marinas/Recreational Boating
           </p>
         </div>
-        <div className="flex flex-col items-center w-[200px] md:w-[270px]">
+        <div className="flex flex-col items-center w-[140px] lg:w-[270px]">
           <div className="w-28 h-28 rounded-full border border-white" />
           <p className="mt-4 headline-xs md:headline-sm">Ocean Data and Tech</p>
         </div>
