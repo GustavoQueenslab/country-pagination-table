@@ -1,5 +1,14 @@
-import Image from "next/image";
+import FocusAreas from "@/components/FocusAreas";
+import Introduction from "@/components/Introduction";
+import Main from "@/components/Main";
 
 export default function Home() {
-  return <p>Innofuse blue</p>;
+  return (
+    <div className="">
+      <Main />
+      <Introduction />
+      <FocusAreas />
+      <Introduction />
+    </div>
+  );
 }
