@@ -15,7 +15,7 @@ export default function FocusAreas() {
           focuses on 5 innovation categories.
         </p>
       </div>
-      <div className=" grid grid-cols-2 lg:grid-cols-3  xl:flex xl:flex-row gap-6 mt-20">
+      <div className="grid grid-cols-2 lg:grid-cols-3 just xl:flex xl:flex-row gap-6 mt-20 justify-center">
         <div className="flex flex-col items-center w-[140px] lg:w-[270px]">
           <div className="w-28 h-28 rounded-full border border-white" />
           <p className="mt-4 headline-xs md:headline-sm">Ocean Energy</p>
@@ -27,7 +27,6 @@ export default function FocusAreas() {
         <div className="flex flex-col items-center w-[140px] lg:w-[270px]">
           <div className="w-28 h-28 rounded-full border border-white" />
           <p className="mt-4 headline-xs md:headline-sm">
-            {" "}
             Future Food systems/Sustainable Aquaculture
           </p>
         </div>
@@ -39,7 +38,7 @@ export default function FocusAreas() {
         </div>
         <div className="flex flex-col items-center w-[140px] lg:w-[270px]">
           <div className="w-28 h-28 rounded-full border border-white" />
-          <p className="mt-4 headline-xs md:headline-sm">Ocean Data and Tech</p>
+          <p className="mt-4 headline-xs md:headline-sm">Last Item</p>
         </div>
       </div>
     </div>

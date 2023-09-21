@@ -5,7 +5,7 @@ export default function History() {
         <p className="display-lg lg:text-[200px] font-extralight text-blue-800">
           25 years
         </p>
-        <div className="mt-10 title-md font-normal xl:headline-sm">
+        <div className="mt-10 xl:mt-20 title-md font-normal xl:headline-sm max-w-[833px]">
           <p>
             We have 10 years to innovate regeneratively and wisely to avoid the
             tipping point in 25 years, when the Ocean will irreversibly give up
