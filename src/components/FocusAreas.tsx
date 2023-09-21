@@ -8,7 +8,7 @@ export default function FocusAreas() {
       }}
     >
       <div className="max-w-[662px]">
-        <p className="text-4xl md:text-6xl">Focus areas</p>
+        <p className="display-sm md:display-lg">Focus areas</p>
         <p className="mt-8 text-lg md:text-2xl">
           Unsustainable practices creates an ocean of opportunities. Aligned
           with Portugal Blue Economy Priorities, the initial intervention

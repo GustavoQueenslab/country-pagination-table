@@ -2,7 +2,7 @@ export default function Initiatives() {
   return (
     <div className="w-full bg-primary text-center px-[10%] md:px-[15%] justify-center items-center py-24">
       <div className="flex flex-col items-center">
-        <p className="display-lg">Initiatives</p>
+        <p className="display-sm md:display-lg">Initiatives</p>
         <p className="mt-8 xl:headline-sm max-w-[858px] text-center title-md font-normal">
           Together with consortium partners, Innofuse Blue connects the Blue
           Business Community and bring the world’s best practices and

@@ -2,9 +2,9 @@ import HeaderComponent from "./HeaderComponent";
 
 export default function Partners() {
   return (
-    <div className="w-full text-center px-[10%] md:px-[15%] justify-center items-center py-24">
+    <div className="flex  flex-col w-full text-center px-[10%] md:px-[15%] justify-center items-center py-24">
       <div className="flex flex-col items-center max-w-[717px]">
-        <p className="display-lg">Partners</p>
+        <p className="display-sm xl:display-lg">Partners</p>
         <p className="mt-4 xl:mt-8 xl:headline-sm text-center title-md font-normal">
           Lorem ipsum dolor sit amet consectetur. Nisl convallis purus et vel.
           Tempor vestibulum gravida enim enim mauris. Tortor elementum a aliquet

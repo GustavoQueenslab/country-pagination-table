@@ -16,7 +16,7 @@ export default function History() {
             better across industries.
           </p>
         </div>
-        <p className="mt-14 title-md xl:display-sm">CTA para parceiros</p>
+        <p className="mt-14 title-md xl:display-sm">CTA to partners</p>
       </div>
     </div>
   );

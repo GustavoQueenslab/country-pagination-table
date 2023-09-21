@@ -1,9 +1,9 @@
 export default function Main() {
   return (
-    <div className="h-80 md:h-[800px] bg-water flex flex-col justify-center items-center">
+    <div className="h-screen bg-no-repeat bg-water flex flex-col justify-center items-center">
       <img src="innofuse.svg" className="absolute top-4 w-36" />
-      <div className="px-[10%] md:px-[15%] w-full ">
-        <div className="flex flex-col gap-1  h-ful md:w-3/4">
+      <div className="px-[10%] md:px-[15%] w-full">
+        <div className="flex flex-col gap-1 md:w-3/4">
           <p className="text-white text-2xl font-semibold md:text-8xl">
             One opportunity
           </p>

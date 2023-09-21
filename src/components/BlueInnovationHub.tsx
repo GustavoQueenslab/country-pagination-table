@@ -8,7 +8,7 @@ export default function BlueInnovationHub() {
       }}
     >
       <div className="flex flex-col items-center">
-        <p className="xl:display-lg text-4xl">Blue Innovation Hub</p>
+        <p className="display-sm xl:display-lg">Blue Innovation Hub</p>
         <p className="mt-8 xl:headline-sm max-w-[858px] text-center title-md font-normal">
           Lorem ipsum dolor sit amet consectetur. Nisl convallis purus et vel.
           Tempor vestibulum gravida enim enim mauris. Tortor elementum a aliquet
