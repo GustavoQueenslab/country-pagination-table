@@ -2,7 +2,7 @@ export default function AboutUs() {
   return (
     <div className="w-full text-center px-[10%] md:px-[15%] justify-center items-center py-24">
       <div className="flex flex-col items-center">
-        <p className="display-sm">About us</p>
+        <p className="display-sm xl:display-lg">About us</p>
         <p className="mt-8 xl:headline-sm max-w-[858px] text-center title-md font-normal">
           Our mission is to embrace and infuse the Blue Economy in Portugal with
           global best practice innovation programs and practices to further
