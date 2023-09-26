@@ -12,14 +12,16 @@ export default function Home() {
   return (
     <div className="">
       <Main />
-      <Introduction />
-      <FocusAreas />
-      <History />
-      <Initiatives />
-      <AboutUs />
-      <BlueInnovationHub />
-      <Partners />
-      <Footer />
+      <div className="text-dark">
+        <Introduction />
+        <FocusAreas />
+        <History />
+        <Initiatives />
+        <AboutUs />
+        <BlueInnovationHub />
+        <Partners />
+        <Footer />
+      </div>
     </div>
   );
 }
