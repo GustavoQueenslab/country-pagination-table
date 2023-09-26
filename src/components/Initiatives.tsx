@@ -9,9 +9,9 @@ export default function Initiatives() {
           acceleration programs to Portugal and scale out sustainable solutions.
         </p>
       </div>
-      <div className="flex flex-col items-center xl:items-start xl:flex-row justify-between mt-16 xl:mt-20 gap-16">
+      <div className="flex flex-col items-center xl:items-start xl:flex-row justify-between mt-16 xl:mt-20 gap-10">
         <div className="max-w-[340px]">
-          <p className="headline-md text-[#41BDEB] font-semibold">
+          <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
             Blue innovation
           </p>
           <p className="body-lg font-normal mt-3">
@@ -21,7 +21,7 @@ export default function Initiatives() {
           </p>
         </div>
         <div className="max-w-[340px] ">
-          <p className="headline-md text-[#41BDEB] font-semibold">
+          <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
             Blue acceleration
           </p>
           <p className="body-lg font-normal mt-3">
@@ -31,7 +31,7 @@ export default function Initiatives() {
           </p>
         </div>
         <div className="max-w-[340px]">
-          <p className="headline-md text-[#41BDEB] font-semibold">
+          <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
             Global community
           </p>
           <p className="body-lg font-normal mt-3">

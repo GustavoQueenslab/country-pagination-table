@@ -11,11 +11,11 @@ export default function AboutUs() {
           related knowledge.
         </p>
       </div>
-      <div className="flex flex-col gap-14 xl:flex-row mt-16 items-center justify-center text-center">
+      <div className="flex flex-col gap-10 xl:flex-row mt-16 items-center justify-center text-center">
         <div className="flex flex-col items-center">
           <Image src="/susanne.png" width={180} height={180} alt="susanne" />
           <div className="mt-4 xl:mt-12 max-w-[465px]">
-            <p className="headline-md font-semibold">Susanne Wedin-Schildt</p>
+            <p className="title-lg font-semibold">Susanne Wedin-Schildt</p>
             <p className="body-lg font-normal">
               Leader at heart and passionate about the well-being of our planet
               with experience building, operating and transforming businesses
@@ -26,7 +26,7 @@ export default function AboutUs() {
         <div className="flex flex-col items-center">
           <Image src="/ann.png" width={180} height={180} alt="susanne" />
           <div className="mt-8 xl:mt-12 max-w-[465px]">
-            <p className="headline-md font-semibold">Ann Lee Carpenter</p>
+            <p className="title-lg font-semibold">Ann Lee Carpenter</p>
             <p className="body-lg font-normal">
               Strategic and market-focused leader dedicated to building the
               global tech entrepreneurial community with domain expertise in

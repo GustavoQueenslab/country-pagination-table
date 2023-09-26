@@ -8,8 +8,8 @@ export default function Main() {
       <div className="absolute z-10 bg-[#015BAC] opacity-60 mix-blend-multiply w-full h-screen" />
       <div className="max-w-[1400px] w-full z-40">
         <div className="mx-[10%] md:mx-[15%] flex flex-col gap-1  flex-1">
-          <p className="text-white text-4xl font-semibold md:text-7xl lg:text-8xl ">
-            One{"  "}
+          <p className="text-white text-4xl font-semibold md:text-6xl lg:text-7xl xl:text-8xl">
+            One{" "}
             <TypeAnimation
               sequence={["World", 2000, "Ocean", 2000, "Opportunity", 4000]}
               wrapper="span"
