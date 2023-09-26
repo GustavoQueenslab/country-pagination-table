@@ -21,7 +21,11 @@ export default function BlueInnovationHub() {
           Portuguese ocean ecosystem with global best practices.
         </p>
       </div>
-      <img src="almada.png" className=" mt-20" />
+      <img
+        src="almada.png"
+        alt="Image of the city of Almada "
+        className=" mt-20"
+      />
       <div className="mt-8">
         <Button>Let&apos;s innovate</Button>
       </div>

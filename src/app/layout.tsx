@@ -5,7 +5,7 @@ import { Raleway } from "next/font/google";
 const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Blue Innovation Hub",
+  title: "Innofuseblue Portugal",
 };
 
 export default function RootLayout({

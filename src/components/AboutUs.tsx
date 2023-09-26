@@ -13,7 +13,12 @@ export default function AboutUs() {
       </div>
       <div className="flex flex-col gap-10 xl:flex-row mt-16 items-center justify-center text-center">
         <div className="flex flex-col items-center">
-          <Image src="/susanne.png" width={180} height={180} alt="susanne" />
+          <Image
+            src="/susanne.png"
+            width={180}
+            height={180}
+            alt="Susanne Wedin-Schildt image"
+          />
           <div className="mt-4 xl:mt-12 max-w-[465px]">
             <p className="title-lg font-semibold">Susanne Wedin-Schildt</p>
             <p className="body-md lg:body-lg font-normal mt-1">
@@ -24,7 +29,12 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="flex flex-col items-center">
-          <Image src="/ann.png" width={180} height={180} alt="susanne" />
+          <Image
+            src="/ann.png"
+            width={180}
+            height={180}
+            alt="Ann Lee Carpenter image"
+          />
           <div className="mt-8 xl:mt-12 max-w-[465px]">
             <p className="title-lg font-semibold">Ann Lee Carpenter</p>
             <p className="body-md lg:body-lg font-normal mt-1">
