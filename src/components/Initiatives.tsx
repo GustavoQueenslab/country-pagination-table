@@ -14,7 +14,7 @@ export default function Initiatives() {
           <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
             Blue innovation
           </p>
-          <p className="body-lg font-normal mt-3">
+          <p className="body-md lg:body-lg font-normal mt-3">
             Enable blue early stage ideas, individuals, teams, and university
             partners, to develop sustainable concepts and prototypes with a
             promising solution potential.
@@ -24,7 +24,7 @@ export default function Initiatives() {
           <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
             Blue acceleration
           </p>
-          <p className="body-lg font-normal mt-3">
+          <p className="body-md lg:body-lg font-normal mt-3">
             Provide the specialised and proven acceleration required to take
             viable high potential ideas and solutions to the stages of investor
             readiness, scalability and impact.
@@ -34,7 +34,7 @@ export default function Initiatives() {
           <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
             Global community
           </p>
-          <p className="body-lg font-normal mt-3">
+          <p className=" body-md lg:body-lg font-normal mt-3">
             Build a global ocean innovation community, share knowledge, and
             foster collaboration with other blue initiatives. Commit to
             out-of-the-box and into-the-ocean thinking, to build bridges and

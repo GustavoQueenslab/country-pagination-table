@@ -15,23 +15,23 @@ export default function FocusAreas() {
         <div className="grid grid-cols-2  just xl:flex xl:flex-row mt-20 justify-between gap-16">
           <div className="flex flex-col items-center max-w-[140px] lg:max-w-[200px]">
             <Image src="/Energy.svg" alt="a" width={130} height={130} />
-            <p className="mt-4 headline-xs md:body-lg">Ocean Energy</p>
+            <p className="mt-4 body-md md:body-lg">Ocean Energy</p>
           </div>
           <div className="flex flex-col items-center max-w-[140px] lg:max-w-[270px]">
             <Image src="/2.svg" alt="a" width={130} height={130} />
-            <p className="mt-4 headline-xs md:body-lg">Shipping and Ports</p>
+            <p className="mt-4 body-md md:body-lg">Shipping and Ports</p>
           </div>
           <div className="flex flex-col items-center max-w-[140px] lg:max-w-[270px]">
             <Image src="/Food.svg" alt="a" width={130} height={130} />
-            <p className="mt-4 headline-xs md:body-lg">Future Food Systems</p>
+            <p className="mt-4 body-md md:body-lg">Future Food Systems</p>
           </div>
           <div className="flex flex-col items-center   max-w-[140px] lg:max-w-[270px]">
             <Image src="/Boating.svg" alt="a" width={130} height={130} />
-            <p className="mt-4 headline-xs md:body-lg">Recreational Boating</p>
+            <p className="mt-4 body-md md:body-lg">Recreational Boating</p>
           </div>
           <div className="flex flex-col items-center col-span-2 ">
             <Image src="/Tech.svg" alt="a" width={130} height={130} />
-            <p className="mt-4 headline-xs md:body-lg">Ocean Data and Tech</p>
+            <p className="mt-4 body-md md:body-lg">Ocean Data and Tech</p>
           </div>
         </div>
       </div>
