@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FocusAreas() {
   return (
-    <div className="w-full text-dark bg-[#F0F5F5] flex flex-col text-center  justify-center items-center py-24 !px-[10%] !md:px-[15%]">
+    <div className="w-full text-dark bg-[#F0F5F5] flex flex-col text-center  justify-center items-center py-[120px] !px-[10%] !md:px-[15%]">
       <div className="max-w-[748px]">
         <p className="display-sm md:display-lg font-light">Focus areas</p>
         <p className="mt-8 text-lg md:text-2xl">

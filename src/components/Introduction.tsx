@@ -1,6 +1,6 @@
 export default function Introduction() {
   return (
-    <div className="w-full flex text-center px-[10%] md:px-[15%] justify-center items-center py-24">
+    <div className="w-full flex text-center px-[10%] md:px-[15%] justify-center items-center py-[120px]">
       <div className="max-w-[748px]">
         <p className="display-sm xl:display-lg text-blue-500">
           There is no{" "}

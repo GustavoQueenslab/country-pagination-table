@@ -3,7 +3,7 @@ import Button from "./Button";
 export default function History() {
   return (
     <div
-      className="w-full flex text-center px-[10%] md:px-[15%] xl:px-[5%] justify-center items-center py-24 lett"
+      className="w-full flex text-center px-[10%] md:px-[15%] xl:px-[5%] justify-center items-center py-[120px] py-"
       style={{
         backgroundImage:
           "linear-gradient(to top right, #231F20 , #201B1E , #170F1A , #0D0116 , #0C041C , #0A0E2D , #081F4A , #043672 , #0054A6 , #005DAE , #0078C3 , #00A3E6 )",

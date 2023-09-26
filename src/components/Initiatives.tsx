@@ -1,6 +1,6 @@
 export default function Initiatives() {
   return (
-    <div className="w-full bg-primary text-center px-[10%] md:px-[15%] justify-center items-center py-24">
+    <div className="w-full bg-primary text-center px-[10%] md:px-[15%] justify-center items-center py-[120px]">
       <div className="flex flex-col items-center">
         <p className="display-sm md:display-lg font-light">Initiatives</p>
         <p className="mt-8 xl:headline-sm max-w-[760px] text-center title-md font-normal">
@@ -9,7 +9,7 @@ export default function Initiatives() {
           acceleration programs to Portugal and scale out sustainable solutions.
         </p>
       </div>
-      <div className="flex flex-col items-center xl:flex-row justify-between mt-10 xl:mt-20 gap-12 ">
+      <div className="flex flex-col items-start xl:flex-row justify-between mt-10 xl:mt-20 gap-12 ">
         <div className="max-w-[340px]">
           <p className="headline-md text-[#41BDEB] font-semibold">
             Blue innovation

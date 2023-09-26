@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function AboutUs() {
   return (
-    <div className="w-full text-center px-[10%] md:px-[15%] justify-center items-center py-24">
+    <div className="w-full text-center px-[10%] md:px-[15%] justify-center items-center py-[120px]">
       <div className="flex flex-col items-center">
         <p className="display-sm md:display-lg font-light">About us</p>
         <p className="mt-8 xl:headline-sm max-w-[760px] text-center title-md font-normal">
