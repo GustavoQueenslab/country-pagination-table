@@ -10,7 +10,7 @@ export default function History() {
       }}
     >
       <div className="flex flex-col items-center justify-center">
-        <p className="text-[100px] li md:text-[180px] xl:text-[320px] font-extralight text-[#41BDEB] leading-none ">
+        <p className="text-[80px] li md:text-[160px] xl:text-[320px] font-extralight text-[#41BDEB] leading-none ">
           25 years
         </p>
         <div className="mt-10 xl:mt-24 text-white title-md font-normal xl:headline-sm max-w-[760px]">

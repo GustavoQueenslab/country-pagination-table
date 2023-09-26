@@ -9,7 +9,7 @@ export default function Initiatives() {
           acceleration programs to Portugal and scale out sustainable solutions.
         </p>
       </div>
-      <div className="flex flex-col items-start xl:flex-row justify-between mt-10 xl:mt-20 gap-12 ">
+      <div className="flex flex-col items-center xl:items-start xl:flex-row justify-between mt-16 xl:mt-20 gap-16">
         <div className="max-w-[340px]">
           <p className="headline-md text-[#41BDEB] font-semibold">
             Blue innovation
