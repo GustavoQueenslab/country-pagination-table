@@ -9,7 +9,7 @@ export default function Main() {
       <div className="max-w-[1400px] w-full z-40">
         <div className="mx-[10%] md:mx-[15%] flex flex-col gap-1  flex-1">
           <p className="text-white text-4xl font-semibold md:text-7xl lg:text-8xl ">
-            One{" "}
+            One{"  "}
             <TypeAnimation
               sequence={["World", 2000, "Ocean", 2000, "Opportunity", 4000]}
               wrapper="span"
