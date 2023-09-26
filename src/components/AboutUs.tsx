@@ -16,7 +16,7 @@ export default function AboutUs() {
           <Image src="/susanne.png" width={180} height={180} alt="susanne" />
           <div className="mt-4 xl:mt-12 max-w-[465px]">
             <p className="title-lg font-semibold">Susanne Wedin-Schildt</p>
-            <p className="body-md lg:body-lg font-normal">
+            <p className="body-md lg:body-lg font-normal mt-1">
               Leader at heart and passionate about the well-being of our planet
               with experience building, operating and transforming businesses
               across industry verticals.
@@ -27,7 +27,7 @@ export default function AboutUs() {
           <Image src="/ann.png" width={180} height={180} alt="susanne" />
           <div className="mt-8 xl:mt-12 max-w-[465px]">
             <p className="title-lg font-semibold">Ann Lee Carpenter</p>
-            <p className="body-md lg:body-lg font-normal">
+            <p className="body-md lg:body-lg font-normal mt-1">
               Strategic and market-focused leader dedicated to building the
               global tech entrepreneurial community with domain expertise in
               ocean tech / bluetech and adjacencies.
