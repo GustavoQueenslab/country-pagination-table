@@ -81,4 +81,70 @@
     font-size: 36px;
     line-height: 1.22;
   }
+  .container {
+    position: relative;
+    text-align: center;
+    margin-left: 16px;
+    background: #e41b17;
+    border-radius: 6px;
+    color: #fff;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+  }
+  .word {
+    font-weight: bold;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+  @keyframes w1anim {
+    0% {
+      opacity: 0;
+    }
+    18% {
+      opacity: 1;
+    }
+    36% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes w2anim {
+    36% {
+      opacity: 0;
+    }
+    54% {
+      opacity: 1;
+    }
+    72% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes w3anim {
+    72% {
+      opacity: 0;
+    }
+    88% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .w1 {
+    -webkit-animation: w1anim 14s infinite;
+    animation: w1anim 14s infinite;
+  }
+
+  .w2 {
+    -webkit-animation: w2anim 14s infinite;
+    animation: w2anim 14s infinite;
+  }
+
+  .w3 {
+    -webkit-animation: w3anim 14s infinite;
+    animation: w3anim 14s infinite;
+  }
 }
