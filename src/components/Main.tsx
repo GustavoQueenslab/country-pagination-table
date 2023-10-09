@@ -25,7 +25,7 @@ export default function Main() {
               wrapper="span"
               cursor={false}
               repeat={Infinity}
-              className="text-[#41BDEB]"
+              className="text-[#0193D9]"
             />
           </p>
         </div>

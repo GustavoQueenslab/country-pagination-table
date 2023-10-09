@@ -16,7 +16,7 @@ export default function Initiatives() {
       </div>
       <div className="flex flex-col items-center xl:items-start xl:flex-row justify-center mt-16 xl:mt-20 gap-10">
         <div className="max-w-[364px]">
-          <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
+          <p className="title-lg lg:headline-md text-[#0193D9] font-semibold">
             Blue innovation
           </p>
           <p className="body-md lg:body-lg font-normal mt-1">
@@ -27,7 +27,7 @@ export default function Initiatives() {
           </p>
         </div>
         <div className="max-w-[364px]">
-          <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
+          <p className="title-lg lg:headline-md text-[#0193D9] font-semibold">
             Blue acceleration
           </p>
           <p className="body-md lg:body-lg font-normal mt-1">
@@ -38,7 +38,7 @@ export default function Initiatives() {
           </p>
         </div>
         <div className="max-w-[364px]">
-          <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
+          <p className="title-lg lg:headline-md text-[#0193D9] font-semibold">
             Blue Venture Studio
           </p>
           <p className=" body-md lg:body-lg font-normal mt-1">
@@ -52,7 +52,7 @@ export default function Initiatives() {
       </div>
       <div className="flex flex-col items-center xl:items-start xl:flex-row justify-center mt-16 xl:mt-20 gap-10">
         <div className="max-w-[364px]">
-          <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
+          <p className="title-lg lg:headline-md text-[#0193D9] font-semibold">
             Innofuse Blue Community
           </p>
           <p className="body-md lg:body-lg font-normal mt-1">
@@ -64,7 +64,7 @@ export default function Initiatives() {
           </p>
         </div>
         <div className="max-w-[364px]">
-          <p className="title-lg lg:headline-md text-[#41BDEB] font-semibold">
+          <p className="title-lg lg:headline-md text-[#0193D9] font-semibold">
             Incubator Services
           </p>
           <p className="body-md lg:body-lg font-normal mt-1">
