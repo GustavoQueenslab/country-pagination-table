@@ -11,24 +11,37 @@ export default function BlueInnovationHub() {
     >
       <div className="flex flex-col items-center">
         <p className="display-sm xl:display-lg font-light">
-          Blue Innovation Hub
+          Anchored in Portugal
         </p>
-        <p className="mt-8 xl:headline-sm max-w-[765px] text-center title-md font-normal">
-          With a prime location on the Tejo riverbank overlooking Lisbon, the
-          Blue Innovation Hub provides a bright and spacious environment for
-          acceleration programs and an international landing pad for blue
-          technology ventures to complement, infuse and accelerate the
-          Portuguese ocean ecosystem with global best practices.
-        </p>
+        <img
+          src="almada.png"
+          alt="Image of the city of Almada "
+          className=" mt-20"
+        />
+        <article className="mt-20 flex flex-col gap-8 xl:headline-sm max-w-[765px] text-center title-md font-normal">
+          <p>
+            Planned location for Innofuse Blue Incubator and innovation Hub is
+            on the Tejo riverbank overlooking Lisbon, and less than 30 minutes
+            from Lisbon International Airport.
+          </p>
+          <p>
+            Our interim location is just steps away and provided by our partner
+            Southshore Investments with the same bright and spacious environment
+            for our soon to launch initial programs.
+          </p>
+          <p>
+            This collaborative partner-driven initiative is evolving in parallel
+            with program design, and we are happy to already be working closely
+            with our University partners Nova University, and Egas Moniz, and
+            with strong support from Almada Innovation District and Almada
+            Municipality.
+          </p>
+        </article>
       </div>
-      <img
-        src="almada.png"
-        alt="Image of the city of Almada "
-        className=" mt-20"
-      />
-      <div className="mt-8">
-        <Button>Let&apos;s innovate</Button>
-      </div>
+      <p className="mt-20 title-md xl:headline-lg">
+        Interested in partnering with us? Let us know!
+      </p>
+      <Button>Let&apos;s innovate</Button>
     </div>
   );
 }
