@@ -2,13 +2,20 @@ import Image from "next/image";
 
 export default function FocusAreas() {
   return (
-    <div className="w-full text-dark bg-[#F0F5F5] flex flex-col text-center  justify-center items-center py-[120px] !px-[10%] !md:px-[15%]">
+    <div
+      className="w-full text-white flex flex-col text-center !px-[10%] !md:px-[15%] justify-center items-center py-[120px]"
+      style={{
+        backgroundImage:
+          "linear-gradient(to top right, #231F20 , #201B1E , #170F1A , #0D0116 , #0C041C , #0A0E2D , #081F4A , #043672 , #0054A6 , #005DAE , #0078C3 , #00A3E6 )",
+      }}
+    >
       <div className="max-w-[748px]">
-        <p className="display-sm md:display-lg font-light">Focus areas</p>
-        <p className="mt-8 text-lg md:text-2xl">
-          Unsustainable practices creates an ocean of opportunities. Aligned
-          with Portugal Blue Economy Priorities, the initial intervention
-          focuses on 5 innovation categories.
+        <p className="display-sm md:display-lg">
+          Aligned with an ocean of opportunities
+        </p>
+        <p className="mt-8 text-lg md:headline-sm">
+          Our innovation programs span across all Blue Economy categories,
+          covering the full cycle from ideas to scalable solutions.
         </p>
       </div>
       <div className="">
