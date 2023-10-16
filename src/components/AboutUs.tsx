@@ -51,16 +51,14 @@ export default function AboutUs() {
                 alt="Button icon"
               />
             </Link>
-            <button
-              onClick={() => router.push("malito:susanne@innnofuseblue.com")}
-            >
+            <Link href="malito:susanne@innnofuseblue.com">
               <Image
                 src="/email.svg"
                 width={40}
                 height={40}
                 alt="Button icon"
               />
-            </button>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col items-center">
@@ -93,14 +91,14 @@ export default function AboutUs() {
                 alt="Button icon"
               />
             </Link>
-            <button onClick={() => router.push("malito:ann@innnofuseblue.com")}>
+            <Link href="malito:ann@innnofuseblue.com">
               <Image
                 src="/email.svg"
                 width={40}
                 height={40}
                 alt="Button icon"
               />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
