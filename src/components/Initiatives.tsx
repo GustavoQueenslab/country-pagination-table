@@ -63,11 +63,11 @@ export default function Initiatives() {
             ecosystem.
           </p>
         </div>
-        <div className="max-w-[364px] ">
-          <p className="title-lg lg:headline-md text-[#0193D9] font-semibold">
+        <div className="max-w-[364px] h-12 ">
+          <p className="title-lg lg:headline-md text-[#0193D9] font-semibold ">
             Incubator Services
           </p>
-          <p className="body-md lg:body-lg font-normal mt-1 h-[144px] ">
+          <p className="body-md lg:body-lg font-normal mt-1 h-[144px] le">
             Providing the space and services relevant for the entrepreneurs or
             partners participating in our programs or being a part of our
             partnership ecosystem, as well as serving as a landing pad for

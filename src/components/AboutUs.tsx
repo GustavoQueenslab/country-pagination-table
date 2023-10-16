@@ -1,7 +1,11 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function AboutUs() {
+  const router = useRouter();
+
   return (
     <div className="w-full text-center px-[10%] md:px-[15%] justify-center items-center py-[120px]">
       <div className="flex flex-col items-center">
@@ -47,14 +51,16 @@ export default function AboutUs() {
                 alt="Button icon"
               />
             </Link>
-            <Link href="malito:susanne@innnofuseblue.com">
+            <button
+              onClick={() => router.push("malito:susanne@innnofuseblue.com")}
+            >
               <Image
                 src="/email.svg"
                 width={40}
                 height={40}
                 alt="Button icon"
               />
-            </Link>
+            </button>
           </div>
         </div>
         <div className="flex flex-col items-center">
@@ -87,14 +93,14 @@ export default function AboutUs() {
                 alt="Button icon"
               />
             </Link>
-            <Link href="malito:ann@innnofuseblue.com">
+            <button onClick={() => router.push("malito:ann@innnofuseblue.com")}>
               <Image
                 src="/email.svg"
                 width={40}
                 height={40}
                 alt="Button icon"
               />
-            </Link>
+            </button>
           </div>
         </div>
       </div>
