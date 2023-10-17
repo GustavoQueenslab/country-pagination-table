@@ -1,5 +1,6 @@
 "use client";
 import { TypeAnimation } from "react-type-animation";
+import Image from "next/image";
 
 export default function Main() {
   return (
@@ -10,6 +11,13 @@ export default function Main() {
         alt="Innofuseblue Logo"
       />
       <div className="absolute z-10 bg-[#015BAC] opacity-70 mix-blend-multiply w-full h-screen" />
+      <Image
+        src="arrow.svg"
+        className="block lg:hidden z-20 absolute bottom-40"
+        alt="Arrow"
+        width={14}
+        height={54}
+      />
       <div className="max-w-[1400px] w-full z-40">
         <div className="flex items-end text-center h-[100px] mb-8">
           <p className="text-white w-full text-center text-5xl font-extrabold md:text-6xl lg:text-7xl xl:text-8xl">
