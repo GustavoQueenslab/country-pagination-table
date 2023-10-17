@@ -7,7 +7,7 @@ export default function AboutUs() {
   const router = useRouter();
 
   return (
-    <div className="w-full text-center px-[10%] md:px-[15%] justify-center items-center py-[120px]">
+    <div className="w-full text-center px-[10%] md:px-[15%] justify-center items-center py-[90px] xl:py-[120px]">
       <div className="flex flex-col items-center">
         <div className="max-w-[760px]">
           <p className="display-sm xl:display-lg font-light">
@@ -29,7 +29,7 @@ export default function AboutUs() {
             height={180}
             alt="Susanne Wedin-Schildt image"
           />
-          <div className="mt-4 xl:mt-12 max-w-[463px]">
+          <div className="mt-4 xl:mt-8 max-w-[463px]">
             <p className="title-lg font-semibold">Susanne Wedin-Schildt</p>
             <p className="body-md lg:body-lg font-normal mt-1 text-center">
               Business and IT-experienced leader at heart and passionate about
@@ -39,7 +39,7 @@ export default function AboutUs() {
               several Blue and Green start-ups.
             </p>
           </div>
-          <div className="flex gap-6 mt-10">
+          <div className="flex gap-6 mt-4 xl:mt-10">
             <Link
               href="https://www.linkedin.com/in/susanne-wedin-schildt-a5603ba/"
               target="_blank"
@@ -61,14 +61,14 @@ export default function AboutUs() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mt-4 xl:mt-0">
           <Image
             src="/ann.png"
             width={180}
             height={180}
             alt="Ann Lee Carpenter image"
           />
-          <div className="mt-8 xl:mt-12 max-w-[463px]">
+          <div className="mt-4 xl:mt-8 max-w-[463px]">
             <p className="title-lg font-semibold">Ann Lee Carpenter</p>
             <p className="body-md lg:body-lg font-normal mt-1 text-center">
               Strategic and market-focused leader dedicated to building the
@@ -79,7 +79,7 @@ export default function AboutUs() {
               headquartered in Los Angeles
             </p>
           </div>
-          <div className="flex gap-6 mt-10">
+          <div className="flex gap-6 mt-4 xl:mt-10">
             <Link
               href="https://www.linkedin.com/in/annleecarpenter/"
               target="_blank"

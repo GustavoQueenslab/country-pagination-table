@@ -3,7 +3,7 @@ import Button from "./Button";
 export default function BlueInnovationHub() {
   return (
     <div
-      className="w-full text-white flex flex-col text-center !px-[10%] !md:px-[15%] justify-center items-center py-[120px]"
+      className="w-full text-white flex flex-col text-center !px-[10%] !md:px-[15%] justify-center items-center py-[90px] xl:py-[120px]"
       style={{
         backgroundImage:
           "linear-gradient(to top right, #231F20 , #201B1E , #170F1A , #0D0116 , #0C041C , #0A0E2D , #081F4A , #043672 , #0054A6 , #005DAE , #0078C3 , #00A3E6 )",
@@ -18,7 +18,7 @@ export default function BlueInnovationHub() {
           alt="Image of the city of Almada "
           className=" mt-20"
         />
-        <article className="mt-20 flex flex-col gap-8 xl:headline-sm max-w-[765px] text-center title-md font-normal">
+        <article className="mt-14 flex flex-col gap-8 xl:headline-sm max-w-[765px] text-center title-md font-normal">
           <p>
             Planned location for Innofuse Blue Incubator and innovation Hub is
             on the Tejo riverbank overlooking Lisbon, and less than 30 minutes

@@ -1,6 +1,6 @@
 export default function Initiatives() {
   return (
-    <div className="w-full bg-primary text-center px-[10%] md:px-[15%] justify-center items-center py-[120px]">
+    <div className="w-full bg-primary text-center px-[10%] md:px-[15%] justify-center items-center py-[90px] xl:py-[120px]">
       <div className="flex flex-col items-center">
         <div className="max-w-[760px]">
           <p className="display-sm md:display-lg font-light">
