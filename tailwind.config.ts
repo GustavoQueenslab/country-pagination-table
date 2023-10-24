@@ -12,7 +12,7 @@ const config: Config = {
         water: "url('/water.png')",
       },
       colors: {
-        primary: "#EBF1F4",
+        primary: "#F0F5F5",
         dark: "#48484B",
       },
     },

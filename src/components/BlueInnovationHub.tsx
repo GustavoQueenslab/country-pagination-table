@@ -1,4 +1,6 @@
+import Link from "next/link";
 import Button from "./Button";
+import ContactForm from "./ContactForm";
 
 export default function BlueInnovationHub() {
   return (
@@ -16,7 +18,7 @@ export default function BlueInnovationHub() {
         <img
           src="almada.png"
           alt="Image of the city of Almada "
-          className=" mt-20"
+          className=" mt-8"
         />
         <article className="mt-14 flex flex-col gap-8 xl:headline-sm max-w-[765px] text-center title-md font-normal">
           <p>
@@ -38,10 +40,12 @@ export default function BlueInnovationHub() {
           </p>
         </article>
       </div>
-      <p className="mt-20 title-md xl:headline-lg">
+      <p className="mt-20 mb-14 title-md xl:headline-lg">
         Interested in partnering with us? Let us know!
       </p>
-      <Button>Let&apos;s innovate</Button>
+      <Link href="/contact">
+        <Button>Let&apos;s innovate</Button>
+      </Link>
     </div>
   );
 }
