@@ -10,7 +10,7 @@ export default function Footer() {
       </p>
       <p className="xl:hidden">Innofuseblue Portugal</p>
       <p className="xl:hidden">contact@innofuseblue.com</p>
-      <Link href="https://www.queenslab.co/">
+      <Link href="https://www.queenslab.co/" target="_blank">
         Made by <span className="underline">QueensLab</span>
       </Link>
     </footer>

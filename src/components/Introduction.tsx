@@ -24,7 +24,7 @@ export default function Introduction() {
         <p className="mt-8 text-lg xl:text-2xl">
           Innofuse Blue brings together global best practices from the blue
           economy and entrepreneur supporting innovation programs, connecting
-          with the blue business bommunity providing opportunities to scale. We
+          with the blue business community providing opportunities to scale. We
           are committed to engaging the global ecosystem to lead blue and
           sustainable innovation projects in Portugal and beyond.
         </p>

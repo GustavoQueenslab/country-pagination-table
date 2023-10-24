@@ -40,7 +40,7 @@ export default function FocusAreas() {
               width={130}
               height={130}
             />
-            <p className="mt-4 body-md md:body-lg">Blue Reneable Energy</p>
+            <p className="mt-4 body-md md:body-lg">Blue Renewable Energy</p>
           </div>
           <div className="flex flex-col items-center max-w-[140px] lg:max-w-[200px]">
             <Image
