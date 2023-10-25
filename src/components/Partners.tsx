@@ -7,13 +7,12 @@ export default function Partners() {
         <div className="grid grid-cols-2 gap-8 xl:flex justify-center items-center justify-items-center">
           <img
             src="/oceanCommunity.png"
-            alt="energy icon"
+            alt="Ocean Community image"
             className="opacity-50"
           />
-          <img src="/23.png" alt="shipping icon" className="opacity-50" />
-          <img src="/22.png" alt="fish icon" className="opacity-50" />
-          <img src="/21.png" alt="boat icon" className="opacity-50" />
-          <img src="/20.png" alt="mind icon" className="opacity-50" />
+          <img src="/23.png" alt="Braid Theory image" className="opacity-50" />
+          <img src="/22.png" alt="Nova School image" className="opacity-50" />
+          <img src="/21.png" alt="Edgas moniz image" className="opacity-50" />
         </div>
       </div>
     </div>

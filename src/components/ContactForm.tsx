@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import Button from "./Button";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { ArrowLeft } from "react-feather";
 
 export default function ContactForm() {
   const {
@@ -30,23 +31,12 @@ export default function ContactForm() {
 
   return (
     <div className="w-full bg-primary text-center px-[10%] flex flex-col md:px-[15%] justify-center items-center py-[90px] xl:py-[120px]">
-      <Link href="/" className="flex items-center gap-2 w-full mb-4">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="feather feather-arrow-left"
-        >
-          <line x1="19" y1="12" x2="5" y2="12"></line>
-          <polyline points="12 19 5 12 12 5"></polyline>
-        </svg>
-        <p className="text-lg">Back</p>
+      <Link
+        href="/"
+        className="flex absolute top-12 items-center gap-2 w-full md:px-[15%] mb-4"
+      >
+        <ArrowLeft width={16} />
+        <p className="body-md">Back</p>
       </Link>
       <p className="display-sm md:display-lg font-light">Contact Us</p>
       <form
@@ -70,11 +60,12 @@ export default function ContactForm() {
         <label className="flex flex-col items-start text-dark">
           Email*
           <input
+            type="email"
             {...register("email", { required: true, minLength: 3 })}
             className="py-1.5 px-2 border text-dark w-full"
           />
         </label>
-        <label className="flex flex-col items-start text-dark mb-4">
+        <label className="flex flex-col items-start text-dark ">
           Message*
           <textarea
             className="py-1.5 px-2 border text-dark h-40 w-full resize-none"
