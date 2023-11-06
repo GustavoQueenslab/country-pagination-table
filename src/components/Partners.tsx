@@ -13,6 +13,12 @@ export default function Partners() {
           <img src="/23.png" alt="Braid Theory image" className="opacity-50" />
           <img src="/22.png" alt="Nova School image" className="opacity-50" />
           <img src="/21.png" alt="Edgas moniz image" className="opacity-50" />
+          <img
+            src="/ql.png"
+            width={205}
+            alt="Queenslab image"
+            className="opacity-50"
+          />
         </div>
       </div>
     </div>
