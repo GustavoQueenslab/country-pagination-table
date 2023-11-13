@@ -7,10 +7,9 @@ export default function Initiatives() {
             Innofuse Blue platform and programs
           </p>
           <p className="mt-8 xl:headline-sm max-w-[760px] text-center title-md font-normal">
-            Together with consortium partners, Innofuse Blue connects the Blue
-            Business Community and bring the world’s best practices and
-            acceleration programs to Portugal and scale out sustainable
-            solutions.
+            Together with partners, Innofuse Blue connects the Blue Business
+            Community and bring the world’s best practices and acceleration
+            programs to Portugal and scale out sustainable solutions.
           </p>
         </div>
       </div>
